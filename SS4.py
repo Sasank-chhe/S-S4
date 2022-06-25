@@ -35,7 +35,7 @@ except ImportError:
 	try:
 		import rich
 	except ImportError:
-		exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)')
+		exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)' SS4.py)
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
@@ -109,7 +109,7 @@ def login():
 			print ( ' [×] Connection Timeout')
 			exit()
 	except IOError:
-		Public()
+		Public() 
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
